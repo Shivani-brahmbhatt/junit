@@ -36,6 +36,13 @@ public class junit_readconfig {
 
 		return cpath;
 
+	}public String returnfirepath()
+
+	{
+		String cpath = pro.getProperty("firefox");
+
+		return cpath;
+
 	}
 
 	public String item1() {
